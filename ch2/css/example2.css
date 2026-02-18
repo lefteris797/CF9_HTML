@@ -1,0 +1,50 @@
+body{
+    background-color: aqua;
+}
+p, li {
+    color: red;
+}
+/* li{
+    color: red;
+} */
+
+.aueb-logo{
+    border: 3px solid black;
+    width: 800px;
+}
+
+img.aueb-logo{
+    height: auto;
+}
+
+p.aueb-logo{
+    border: 4px solid blue;
+}
+
+.link-cf:link{
+text-decoration: none;
+color: black;
+}
+
+.link-cf:visited{
+    color: brown;
+}
+.link-cf:hover{
+    background-color: green;
+}
+
+.link-cf:focus{
+    outline: none;
+    background-color: yellow;
+}
+
+.link-cf:active{
+    background-color: chocolate;
+}
+
+.border-green{
+    border: 2px solid green;
+}
+.text-blue{
+    color: blue;
+}

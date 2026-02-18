@@ -1,0 +1,30 @@
+.oldpiece{
+    width: 600px;
+    height: auto;
+}
+.img-rounded{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 2px solid rgb(177, 23, 44);
+}
+.img-rounded:hover{
+    box-shadow: 0px 0px 2px 2px rgb(177,23,44);
+}
+
+.card{
+    width: 400px;
+    text-align: center; 
+    margin: 0;
+}
+.card-image{
+    width: 100%;
+    display: block;
+}
+.description-image{
+    margin: 0;
+    text-shadow: 2px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid;
+}

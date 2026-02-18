@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>My First Form</h2>
+    <form>
+        <div>
+            <input type="radio" name = "gender" value = "male" id = "fldmale" checked>
+            <label for="fldmale">Άνδρας</label><br>
+            <Input type="radio" name = "gender" value = "female" id = "fldfemale">
+            <label for="fldfemale">Γυναίκα</label>   
+        </div>
+
+        <div>
+            <input type="checkbox" name = "vehicle1" value = "bike" id = "fldbike" checked>
+            <label for="fldbike">Ποδήλατο</label><br>
+            <input type="checkbox" name = "vehicle2" value = "motorcycle" id = "fldmotorcycle">
+            <label for="fldmotorcycle">Μηχανή</label><br>
+            <input type="checkbox" name = "vehicle3" value = "car" id = "fldcar">
+            <label for="fldcar">Αυτοκίνητο</label>
+        </div>
+
+        <div>
+            <label for="">Υπηκοότητα</label>
+            <select name="nationality" id="fldNationality">
+                <option value="" disabled selected>Επιλέξτε Υπηκοότητα</option>
+                <option value="greek">Ελλάδα</option>
+                <option value="english">Αγγλικά</option>
+                <option value="spain">Ισπανία</option>
+            </select>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Personal Details</legend>
+                <div>
+                <label for="fldFirstname">Όνομα</label>
+                <input type="text" name = "firstname" id = "fldFirstname" placeholder="Συμπληρώστε όνομα" minlength="3" maxlength="20" required>
+                </div>
+
+                <div>
+                <label for="fldworkexperience">Years of Experience</label>
+                <input type="number" name="workexperience" id = fldworkexperience min="3" max="20">
+                <div>
+                <label for="fldemail">Email</label>
+                <input type="email" name="email" id="fldemail">
+                </div>
+
+                </div>
+            </fieldset>
+            
+        </div>
+         <div>
+            <label for="">Write your message</label>
+            <textarea name="message" id="fldmessage" rows="10" cols="30"></textarea>
+         </div>
+         <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="clear">
+         </div>
+    </form>
+</body>
+</html>

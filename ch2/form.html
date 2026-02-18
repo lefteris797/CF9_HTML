@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU+Guides&display=swap" rel="stylesheet">
+    <style>
+        *, ::after, ::before{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        * {
+            font-family: "Playwrite CU Guides", cursive;
+            font-weight: 400;
+            font-style: normal;
+            }
+        .row{
+            margin-bottom: 10px;
+        }
+
+        label{
+            display: inline-block;
+            width: 80px;
+        }
+        .input-item{
+            width: 200px;
+            height: 25px;
+            border: 1px solid black;
+            border-radius: 5px;
+            padding-left: 5px;
+        }
+
+        .input-item:focus{
+            outline: none;
+        }
+        [type = 'submit']{
+            margin-left: 85px;
+            margin-top: 10px;
+            padding: 10px;
+            width: 120px;
+            background-color: blue;
+            color: white;
+        }
+        [type='submit']:hover{
+            background-color: white;
+            color: blue;
+        }
+        h1::after{
+            content: '\2764\FE0F';
+            margin-left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>User Registration</h1>
+    <form action=""></form>
+
+    <div class="row">
+        <label for="Username">Username</label>
+        <input class="input-item" type="text" name="" id="Username" placeholder="Insert username">
+    </div>
+
+    <div class="row">
+        <label for="Password">Password</label>
+        <input class="input-item" type="text" name="" id="Password" placeholder="Insert Password">
+    </div>
+
+    <div class="row">
+        <label for="email">Email</label>
+        <input class="input-item" type="email" name="" id="email" placeholder="Insert email">
+    </div>
+
+     <div>
+        <input type="submit" name="submit" id="submit" value="Submit">
+    </div>
+</body>
+</html>

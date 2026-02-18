@@ -1,0 +1,77 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+.container{
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: column;
+   align-items: center;
+    background-color: blue;
+    width: 400px;
+    height: 600px;
+   margin: auto;
+
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 2%;
+    background-color: white;
+    width: 70%;
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 80px;
+    margin-top: 20px;
+    
+}
+h1{
+    color: grey;
+    font-size: 4em;
+    margin-bottom: 10px;
+    font-weight: 800;
+    opacity: 80%;
+    margin-top: 5px;
+    
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    gap: 15px;
+}
+input{
+    background-color: beige;
+    margin-top: 0px;
+    border: none;
+    border-radius: 6px;
+    padding: 15px;
+}
+input[type = "submit"]{
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+}
+.inputs a{
+    color: black;
+    opacity: 0.5;
+    border: none;
+    text-align: center;
+    padding-bottom: 40px;
+}
+ footer{
+    color: white;
+    margin-top: 15px;   /* space from the white box */
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: underline;
+}

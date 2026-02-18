@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+display: flex;
+background-color: #762124;
+}
+.nav{
+    width: 600px;
+}
+.nav>ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+}
+.lists a{
+    color: white;
+    font-size: larger;
+}

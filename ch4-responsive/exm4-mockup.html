@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./exm4-mockup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="logo">
+                <img src="../img/logo_opa.png" alt="aueb logo">
+            </div>
+            <nav>
+                <ul>
+                    <li class="dropdown">
+                        <a href="#">Home</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Menu 1</a></li>
+                            <li><a href="#">Menu 2</a></li>
+                            <li><a href="#">Menu 3</a></li>
+                            <li><a href="#">Menu 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">We Educate</a></li>
+                    <li><a href="#">We Innovate</a></li>
+                    <li><a href="#">We are</a></li>
+                </ul>
+            </nav>
+            <div class="navbar-toggler">
+                <button type="button">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </header>
+        <div class="menu-toggler">
+            <ul>
+                <li><a href="#">menu1</a></li>
+                <li><a href="#">menu1</a></li>
+            </ul>
+        </div>
+        <!-- Image Slider -->
+         <div class="home-img">
+            <div class="home-title">
+                <span>All you need is love, passion, design, software and ... <br> Coding Factory</span>
+            </div>
+         </div>
+    </div>
+
+    <!-- Main -->
+     <main class="pt-2 pb-2" id="main">
+        <h2 class="pb-2">Coding factory</h2>
+        <section>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eveniet odio consequuntur asperiores. Velit atque obcaecati ex cupiditate ad nam animi. Eaque neque fugiat eveniet natus. Consequatur possimus placeat earum!
+        </section>
+        <section>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eveniet nostrum dolores, tenetur aspernatur, dignissimos pariatur molestias totam architecto ipsa expedita repellat consectetur alias ad soluta aliquid, cumque quibusdam qui?
+        </section>
+        <section>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, voluptatem porro sint neque adipisci consectetur asperiores libero quidem, praesentium modi repellendus saepe, enim a nostrum. Vitae dolorum omnis error quas?
+        </section>
+        <section>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem optio commodi repellendus architecto aperiam quibusdam reprehenderit in, praesentium vero dolorum sequi cupiditate harum mollitia ipsa. Quidem quaerat dolor consequatur culpa.
+        </section>
+     </main>
+     <footer id="footer">
+        <div>
+            &copy Coding Factory 2026 - Athens University
+        </div>
+        <div>
+            <span>Follow Us</span>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+     </footer>
+
+      <script>
+        const img = document.querySelector('.home-img');
+        const toggleBtn = document.querySelector('.navbar-toggler');
+        const navbarToggle = document.querySelector('.menu-toggler');
+        const main = document.getElementById('main');
+        const footer = document.getElementById('footer');
+
+    toggleBtn.addEventListener('click', function() {
+      img.classList.toggle('hidden');
+      navbarToggle.classList.toggle('show');
+      main.classList.toggle('hidden');
+      footer.classList.toggle('hidden');
+    })
+  </script>
+
+</body>
+</html>

@@ -37,6 +37,17 @@ nav{
     width: 80%;
 }
 
+main{
+    flex:80%;
+    height: calc(100vh - 105px);
+    overflow: auto;
+}
+
+aside{
+    flex: 20%;
+
+}
+
 /* Footer Styling */
 footer{
     border-top: 10px solid var(--blue);
@@ -46,14 +57,66 @@ footer{
     width: auto;
 }
 
+/* Stepper Styling */
+.stepper-circle{
+    background-color: var(--lightgrey-300);
+    color: var(--white);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+}
+.stepper-border-bottom{
+    border-bottom: 1px solid black;
+    display: block;
+}
+
+.active{
+    background-color: var(--gov-blue);
+}
+
+/* Info Styling */
+.info{
+    display: inline-block;
+    border-radius: 50%;
+    background-color: var(--gov-blue);
+    width: 20px;
+    height: 20px;
+    color: var(--lightgrey-200);
+    text-align: center;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+/* STylings Forms */
+.text-info{
+    color: var(--lightgrey-500);
+    font-size: smaller;
+    padding-left: 1rem;
+}
+
+
+
 /* Displays */
 .d-flex{
     display: flex;
     justify-content: space-between;
 }
 
+.d-block{
+    display: block;
+}
+
+.flex-grow-1{
+    flex-grow: 1;
+}
+
 .flex-row{
     flex-direction: row;
+}
+.justify-end{
+    justify-content: end;
 }
 
 .align-center{
@@ -80,8 +143,18 @@ footer{
 .mb-1{
     margin-bottom: 1rem;
 }
+.mb-2{
+    margin-bottom: 2rem;
+}
 .mb-3{
     margin-bottom: 3rem;
+}
+.ml-1{
+    margin-left: 1rem;
+}
+.m-auto{
+    margin-left: auto;
+    margin-right: auto;
 }
 .p-1{
     padding: 1rem;
@@ -109,6 +182,9 @@ footer{
 .bg-lightgrey-300{
     background-color: var(--lightgrey-300);
 }
+.bg-lightgrey-200{
+    background-color: var(--lightgrey-200);
+}
 
 
 /* Text Styling */
@@ -116,14 +192,29 @@ footer{
 .font-size-1{
     font-size: 1rem;
 }
+
+.font-size-075{
+    font-size: 0.75rem;
+}
+
+.font-size-2{
+    font-size: 2rem;
+}
+
 .text-lightgrey-200{
     color: var(--lightgrey-200);
+}
+.text-lightgrey-500{
+    color: var(--lightgrey-500);
 }
 .text-white{
     color: var(--white);
 }
 .text-blue{
     color: var(--blue);
+}
+.text-yellow{
+    color: var(--yellow);
 }
 .text-decoration-none{
     text-decoration: none;
@@ -144,6 +235,34 @@ footer{
     border-color: var(--white);
 }
 
+.border-lightgrey300{
+    border-color: var(--lightgrey-300);
+}
+
 .border-radius-15{
     border-radius: 15%;
+}
+.no-border{
+    border: 0;
+}
+/* Width - Height */
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+.h-2{
+    height: 2rem;
+}
+
+.h-25{
+    height: 2.5rem;
 }

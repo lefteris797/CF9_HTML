@@ -1,0 +1,23 @@
+.bg-blue{
+    background-color: #006994;
+}
+
+header{
+    background-image: url(../corfu/imgs1/header.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* min-height: 50%; */
+}
+
+
+.line{
+    background-color: #006994;
+}
+
+.social a{
+    color: white;
+    font-size: 2rem;
+}
